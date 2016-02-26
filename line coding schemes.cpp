@@ -116,14 +116,12 @@ rectangle(15,90,616,185);
 setcolor(BLUE);
 cout<<"\n\n\n\n\n\n\n\n\n\n\n\n    ";
 for(k=0;k<72;k++)
-{
-cout<<o[k];
-}
 x1=32,y1=167,x=x1,y=y1;
 j=0,k=1;
 delay(2000);
 for(int r=0;r<72;r++)
 {
+cout<<o[k];
 if(o[k] == 1)
 {
 sound(1000);
@@ -174,15 +172,12 @@ void project::draw2()
   rectangle(15,90,620,185);
   setcolor(BLUE);
   cout<<"\n\n\n\n\n\n\n\n\n\n\n\n     ";
-  for(k=0;k<72;k++)
-  {
-  cout<<o[k];
-  }
   x1=40,y1=167,x=x1,y=y1;
   j=0,k=1;
   delay(2000);
   for(int r=0;r<72;r++)
   {
+  cout<<o[k];
   if(o[j] == 1)
   {
   sound(1000);
@@ -241,15 +236,12 @@ void project::draw3()
   rectangle(23,90,620,185);
   setcolor(BLUE);
   cout<<"\n\n\n\n\n\n\n\n\n\n\n\n     ";
-  for(k=0;k<72;k++)
-  {
-  cout<<o[k];
-  }
   x1=40,y1=167,x=x1,y=y1;
   j=0,k=1;
   delay(2000);
   for(int r=0;r<72;r++)
   {
+  cout<<o[k];
     if(o[j] == 1)
     {
     sound(1000);
@@ -322,16 +314,13 @@ void project::draw4()
   rectangle(15,90,620,185);
   setcolor(BLUE);
   cout<<"\n\n\n\n\n\n\n\n\n\n\n\n     ";
-  for(k=0;k<72;k++)
-  {
-  cout<<o[k];
-  }
   x1=40,y1=142,x=x1,y=y1;
   j=0,k=1;
   int count=0;
   delay(2000);
   for(int r=0;r<72;r++)
   {
+  cout<<o[k];
    if(count == 0)
    {
      if(o[j]==0)
